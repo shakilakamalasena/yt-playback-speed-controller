@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Playback Speed Controller",
+    "version": "1.0",
+    "description": "Easily adjust playback speed on YouTube.",
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "author": "Shakila Kamalasena",
+    "homepage_url": "https://www.shakilakamalasena.me"
+}

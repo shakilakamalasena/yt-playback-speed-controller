@@ -1,0 +1,48 @@
+#yt-speed-controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.178);
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    transition: box-shadow 0.3s ease;
+}
+
+#yt-speed-controls:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#yt-speed-controls button {
+    padding: 5px 9px;
+    font-size: 14px;
+    background: #ff66666c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#yt-speed-controls button:hover {
+    background: #cc33339b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#yt-speed-controls #current-speed {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff93;
+    padding: 0 10px;
+}
+
+#yt-speed-controls button svg {
+    width: 16px;
+    height: 16px;
+}
